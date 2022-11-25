@@ -1,0 +1,26 @@
+@charset "utf-8";
+.kiji h1 {
+	font-size: 40px;
+}
+.kiji p {
+	font-size: 16px;
+}
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.gaiyou a {
+	color: #000000;
+	text-decoration: none;
+	outline: none;
+	display: block;
+}
+.gaiyou a:hover {
+	background-color: #EDEDED;
+}
+.gaiyou a:focus {
+	background-color: #EDEDED;
+}
+.gaiyou a h2 {
+	font-size: 20px;
+	font-weight: bold;
+}

@@ -1,0 +1,85 @@
+.kiji h1 {
+	font-size: 40px;
+}
+.kiji p {
+	font-size: 16px;
+}
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.gaiyou a {
+	color: #000000;
+	text-decoration: none;
+	outline: none;
+	display: block;
+}
+.gaiyou a:hover {
+	background-color: #EDEDED;
+}
+.gaiyou a:focus {
+	background-color: #EDEDED;
+}
+.gaiyou a h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.gaiyou.iconcard a span {
+	font-size: 50px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+}
+.gaiyou.iconcard.database a {
+    background-color: #CDDE6C;
+}
+.gaiyou.iconcard.consult a {
+    background-color: #F6BBC0;
+}
+.gaiyou.iconcard.consult a .fa.fa-line-chart {
+}
+
+.gaiyou.iconcard.contact a {
+    background-color: #9CD5DE;
+}
+
+
+
+.gaiyou.iconcard a {
+    background-color: #FDD757;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+    height: 250px;
+}
+.gaiyou.iconcard a:hover {
+	opacity: 0.8;
+}
+.row　showcase > .col-sm-6:nth-child(odd) {
+    clear: both;
+}
+
+
+@media (min-width: 1200px){
+.container-fluid {
+    width: 1200px;
+}
+
+}
+.sub-midashi {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+@media screen and (max-width:767px){
+.row　showcase .img-responsive {
+    width: 122px;
+    float: left;
+}
+
+
+
+}
