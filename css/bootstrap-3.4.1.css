@@ -1092,10 +1092,16 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
+.row.form-content .col-sm-12 input {
+    height: 200px;
+}
+
 a {
   color: #337ab7;
   text-decoration: none;
@@ -4636,7 +4642,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;

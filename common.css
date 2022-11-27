@@ -152,6 +152,24 @@ body p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.gakutika-contents  {
+    clear: none;
+    float: right;
+}
+.row.form-warining .col-sm-12 p {
+    margin-top: 10px;
+}
+.row .col-sm-12 input {
+    width: 300px;
+}
+form-content .row .col-sm-12 input   {
+    height: 50%;
+
+}
+
+
+
+
 
 
 
@@ -254,6 +272,7 @@ body p {
 @media (min-width: 1200px){
 .container-fluid {
     width: 1200px;
+    margin-right: auto;
 }
 
 }
