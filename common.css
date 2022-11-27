@@ -102,9 +102,10 @@ body p {
     color: #FFFFFF;
 }
 .header-image {
-    background-image: url(images/IMG_2692.JPG);
-    height: 3000px;
+    background-image: url(images/DSC_0426.JPG);
+    height: 500px;
     background-size: cover;
+    background-position: 262px 56%;
 }
 .catch {
     color: #FFFFFF;
@@ -145,6 +146,13 @@ body p {
     border-bottom: 1px dotted #AAAAAA;
 
 }
+.myhistory  h2 {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 
 
 
