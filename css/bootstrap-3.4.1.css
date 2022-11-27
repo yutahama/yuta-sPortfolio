@@ -1264,7 +1264,7 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+    font-size: 40px;
 }
 h2,
 .h2 {
@@ -6832,4 +6832,8 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */.header-image {
+}
+.contact {
+}
+.works {
 }
