@@ -167,6 +167,7 @@ form-content .row .col-sm-12 input   {
     clear: none;
 }
 .gakutika-content {
+    padding-top: 50px;
 
 
 }
@@ -223,6 +224,11 @@ form-content .row .col-sm-12 input   {
 .myhistory {
     padding-left: 400px;
 }
+.gakutika-content  section {
+    float: none;
+    clear: left;
+}
+
 
 
 
@@ -470,6 +476,15 @@ body p {
     color: #e0e0e0;
     background-color: #819ca9;
   }
+.gakutika-content  .img-responsive {
+    width: 122px;
+}
+.sub-navbar ul {
+    position: static;
+}
+
+
+
 }
 
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
