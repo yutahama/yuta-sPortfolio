@@ -168,9 +168,18 @@ form-content .row .col-sm-12 input   {
 }
 .gakutika-content {
     padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 50px;
 
 
 }
+.gakutika h2  {
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
 
 .gakutika-top {
     padding-top: 70px;
@@ -182,6 +191,7 @@ form-content .row .col-sm-12 input   {
 .contact-top-padding {
     padding-top: 70px;
     left: 0px;
+    padding-left: 100px;
 }
 .sub-navbar ul li  {
     position: relative;
@@ -213,8 +223,9 @@ form-content .row .col-sm-12 input   {
 }
 .sub-navbar  {
     float: none;
-    height: 100em;
+    height: 100%;
     position: fixed;
+    width: 100%;
 
 
 }
@@ -222,12 +233,14 @@ form-content .row .col-sm-12 input   {
     width: 170px;
 }
 .myhistory {
-    padding-left: 400px;
+
+
 }
 .gakutika-content  section {
     float: none;
     clear: left;
 }
+
 
 
 
@@ -279,15 +292,24 @@ form-content .row .col-sm-12 input   {
     height: 1.5em;
 }
 
+
 .socialBtn {
     display: flex ;
     justify-content: flex-end;
     margin:0 0 0 auto;
 
 }
+.row.showcase > .col-sm-6:nth-child(odd) {
+    background-color: #FF0004;
+
+
+}
+
+
 .nav li:hover{
     text-decoration:underline;
 }
+
 nav li{
     margin-left: 1em;
 /*     
@@ -295,6 +317,10 @@ nav li{
     text-align: center; */
     float: right;
 }
+.row.showcase section > .col-sm-6:nth-child(odd) {
+    clear: both;
+}
+
 
 .title{
     margin-left: 1.5em;
@@ -348,6 +374,11 @@ body p {
     width: 1200px;
     margin-right: auto;
 }
+
+.myhistory {
+    padding-left: 300px;
+}
+
 
 }
 .sub-midashi {
@@ -482,6 +513,9 @@ body p {
 .sub-navbar ul {
     position: static;
 }
+.myhistory {
+}
+
 
 
 
@@ -602,14 +636,24 @@ section:first-child{
 }
 
 section:nth-child(2n){
-  background:#f3f3f3; 
+    background: #f3f3f3;
+    padding-left: 30px;
 }
+#timeline {
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
 /*タイムライン全体の設定*/
 .timeline{
-  max-width: 400px;
-  width:100%;
-  margin:50px auto;
-  padding:0 30px;
+    max-width: 400px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 0;
 }
 
 .timeline li{
@@ -620,7 +664,8 @@ section:nth-child(2n){
 }
 
 .timeline dl{
-  margin:0 0 20px 3em;
+    margin: 0 0 20px 3em;
+    width: 100%;
 }
 
 .timeline dd strong{
