@@ -27,6 +27,10 @@ section,
 summary {
   display: block;
 }
+.navbar.navbar-default.navbar-static-top {
+    background-color: #29434E;
+}
+
 audio,
 canvas,
 progress,
@@ -4059,8 +4063,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   list-style: none;
 }
 .nav > li {
-  position: relative;
-  display: block;
+    position: relative;
+    display: block;
+    text-align: center;
 }
 .nav > li > a {
   position: relative;
@@ -4590,7 +4595,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+    color: #FFFFFF;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
