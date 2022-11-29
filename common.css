@@ -97,6 +97,7 @@ body p {
 }
 .row.showcase > .col-sm-6:nth-child(odd) {
     clear: both;
+    float: left;
 }
 .nav.navbar-nav.navbar-right li a {
     color: #FFFFFF;
@@ -133,7 +134,7 @@ body p {
     margin-bottom: 20px;
 }
 .row.showcase .img-responsive {
-    margin-bottom: 10px;
+
 }
 .sub-menu {
     margin-bottom: 30px;
@@ -152,6 +153,134 @@ body p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.row.form-warining .col-sm-12 p {
+    margin-top: 10px;
+}
+.row .col-sm-12 input {
+    width: 300px;
+}
+form-content .row .col-sm-12 input   {
+    height: 50%;
+
+}
+.gakutika-image {
+    float: none;
+    clear: none;
+}
+.gakutika-content {
+
+
+
+}
+
+.gakutika h2  {
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+section gakutika-content {
+
+
+}
+.gakutika-contents   dl dd {
+
+}
+
+
+.gakutika h2 img {
+    width: 30px;
+    height: 30px;
+    padding-bottom: px;
+}
+
+
+
+.gakutika-top {
+    padding-top: 70px;
+}
+.progress-top {
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+.contact-top-padding {
+    padding-top: 70px;
+    left: 0px;
+    padding-left: 100px;
+}
+.sub-navbar ul li  {
+    position: relative;
+    list-style-type: none!important;/*ポチ消す*/
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    background: #dbebf8;
+    vertical-align: middle;
+    color: #505050;
+    border-radius: 15px 0px 0px 15px;/*左側の角丸く*/
+
+}
+
+.sub-navbar ul li:before{ 
+  display:inline-block; 
+  vertical-align: middle;
+  /*以下白丸つくる*/
+  content:'';
+  width:1em;
+  height: 1em;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.sub-navbar ul, ol {
+  padding: 0;
+}
+.sub-navbar  {
+    float: none;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+
+
+}
+.progress-top  .sub-navbar ul li {
+    width: 170px;
+}
+.myhistory {
+
+
+}
+.gakutika-content  section {
+    float: none;
+    clear: left;
+}
+.timeline dt {
+
+}
+.progress-content {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -187,15 +316,24 @@ body p {
     height: 1.5em;
 }
 
+
 .socialBtn {
     display: flex ;
     justify-content: flex-end;
     margin:0 0 0 auto;
 
 }
+.row.showcase > .col-sm-6:nth-child(odd) {
+    background-color: #FF0004;
+
+
+}
+
+
 .nav li:hover{
     text-decoration:underline;
 }
+
 nav li{
     margin-left: 1em;
 /*     
@@ -203,6 +341,10 @@ nav li{
     text-align: center; */
     float: right;
 }
+.row.showcase section > .col-sm-6:nth-child(odd) {
+    clear: both;
+}
+
 
 .title{
     margin-left: 1.5em;
@@ -254,7 +396,14 @@ body p {
 @media (min-width: 1200px){
 .container-fluid {
     width: 1200px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
+
+.myhistory {
+    padding-left: 300px;
+}
+
 
 }
 .sub-midashi {
@@ -264,8 +413,13 @@ body p {
     padding-bottom: 6px;
 }
 .navbar {
-  background-color: #29434e;
+    background-color: #29434e;
+    position: fixed;
+    width: 100%;
 }
+.navbar.navbar-default.navbar-static-top {
+}
+
 .navbar .navbar-brand {
   color: #ffffff;
 }
@@ -313,8 +467,10 @@ body p {
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
-  border-color: #ffffff;
+    border-color: #ffffff;
+    margin-top: 0px;
 }
+
 .navbar .navbar-link {
   color: #ffffff;
 }
@@ -348,6 +504,13 @@ body p {
     color: #e0e0e0;
     background-color: #819ca9;
   }
+.gakutika-content .dd-right-padding {
+    padding-right: 27px;
+}
+
+
+
+
 }
 
 @media (max-width: 991px) {
@@ -376,6 +539,18 @@ body p {
     color: #e0e0e0;
     background-color: #819ca9;
   }
+.gakutika-content  .img-responsive {
+    width: 122px;
+}
+.sub-navbar ul {
+    position: static;
+}
+.myhistory {
+}
+
+
+
+
 }
 
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
@@ -422,6 +597,9 @@ body p {
 .row.showcase  .img-responsive {
     width: 122px;
     float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 31px;
 }
 .row.showcase p {
     margin-left: 132px;
@@ -475,4 +653,83 @@ body p {
 }
 
 @media (min-width:767px){
+}
+small{
+  background:#333;
+  color:#fff;
+  display: block;
+  text-align: center;
+  padding:20px;
+}
+
+
+section{
+  padding:30px;
+}
+section:first-child{
+  padding:30px 30px 0px;
+}
+
+section:nth-child(2n){
+    background: #f3f3f3;
+    padding-left: 30px;
+}
+/*タイムライン全体の設定*/
+.timeline{
+    max-width: 400px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 0;
+}
+
+.timeline li{
+    /*線の起点とするためrelativeを設定*/
+    position: relative;
+    list-style: none;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+
+.timeline dl{
+    margin: 0 0 20px 3em;
+    width: 100%;
+}
+
+.timeline dd strong{
+  display: block;
+  padding:10px 0;
+}
+
+/*絶対配置で線を設定*/
+.border-line {
+    /*線の位置*/
+  position: absolute;
+  left:0.2em;
+  top:0;
+  width:2px;/*線の太さ*/
+  height:0;/*はじめは高さを0に*/
+  background: #ccc;
+}
+
+/*タイムラインの見出し横の丸の位置と形状*/
+.timeline li::after{
+  content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  width:10px;
+  height: 10px;
+  background:#666;
+  border-radius: 50%;
+}
+.js-fix.is-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
