@@ -1108,8 +1108,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #23527c;
-  text-decoration: underline;
+    color: #23527c;
+    text-decoration: none;
 }
 a:focus {
     outline: 5px auto -webkit-focus-ring-color;
@@ -1445,8 +1445,7 @@ ol ol {
   padding-left: 5px;
 }
 dl {
-  margin-top: 0;
-  margin-bottom: 20px;
+    margin-top: 0;
 }
 dt,
 dd {
@@ -6848,4 +6847,14 @@ button.close {
 @media (max-width: 1199px){
 
 
+}
+#gakutika_4 {
+}
+#gakutika_5 {
+}
+#gakutika_6 {
+}
+#gakutika_7 {
+}
+#gakutika_8 {
 }

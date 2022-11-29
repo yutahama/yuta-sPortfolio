@@ -97,6 +97,7 @@ body p {
 }
 .row.showcase > .col-sm-6:nth-child(odd) {
     clear: both;
+    float: left;
 }
 .nav.navbar-nav.navbar-right li a {
     color: #FFFFFF;
@@ -133,7 +134,7 @@ body p {
     margin-bottom: 20px;
 }
 .row.showcase .img-responsive {
-    margin-bottom: 10px;
+
 }
 .sub-menu {
     margin-bottom: 30px;
@@ -167,18 +168,33 @@ form-content .row .col-sm-12 input   {
     clear: none;
 }
 .gakutika-content {
-    padding-top: 50px;
-    padding-left: 80px;
-    padding-right: 50px;
+
 
 
 }
+
 .gakutika h2  {
     text-align: center;
     margin-top: 80px;
     padding-bottom: 0px;
     padding-top: 0px;
+    margin-bottom: 0px;
 }
+section gakutika-content {
+
+
+}
+.gakutika-contents   dl dd {
+
+}
+
+
+.gakutika h2 img {
+    width: 30px;
+    height: 30px;
+    padding-bottom: px;
+}
+
 
 
 .gakutika-top {
@@ -240,6 +256,14 @@ form-content .row .col-sm-12 input   {
     float: none;
     clear: left;
 }
+.timeline dt {
+
+}
+.progress-content {
+
+}
+
+
 
 
 
@@ -372,7 +396,8 @@ body p {
 @media (min-width: 1200px){
 .container-fluid {
     width: 1200px;
-    margin-right: auto;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .myhistory {
@@ -479,6 +504,13 @@ body p {
     color: #e0e0e0;
     background-color: #819ca9;
   }
+.gakutika-content .dd-right-padding {
+    padding-right: 27px;
+}
+
+
+
+
 }
 
 @media (max-width: 991px) {
@@ -565,6 +597,9 @@ body p {
 .row.showcase  .img-responsive {
     width: 122px;
     float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 31px;
 }
 .row.showcase p {
     margin-left: 132px;
@@ -639,11 +674,6 @@ section:nth-child(2n){
     background: #f3f3f3;
     padding-left: 30px;
 }
-#timeline {
-    padding-top: 100px;
-    margin-top: 100px;
-}
-
 /*タイムライン全体の設定*/
 .timeline{
     max-width: 400px;
@@ -659,8 +689,10 @@ section:nth-child(2n){
 .timeline li{
     /*線の起点とするためrelativeを設定*/
     position: relative;
-  list-style: none;
-  padding:0 0 20px 0;
+    list-style: none;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
 }
 
 .timeline dl{
