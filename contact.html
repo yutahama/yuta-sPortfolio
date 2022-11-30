@@ -18,6 +18,7 @@
 		<![endif]-->
   </head>
   <body>
+	  
   <nav class="navbar navbar-default navbar-static-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -48,43 +49,49 @@
         </div>
         
         <div class="row form-warining">
-          <div class="col-sm-12"><p>ご質問、面談の日程調整等お気軽にお問い合わせくださいませ。<br>下記フォームよりご記入ください。必須の項目は必ずご記入お願いします。</p></div>
+          <div class="col-sm-12"><p>ご質問、面談の日程調整等お気軽にお問い合わせくださいませ。<br>下記フォームよりご記入ください。必須項目は必ずお書きください</p></div>
         </div>
-        <form>
+		  
+		  <!--メールを送信します-->
+        <form action="./mail.php" method="post">
           <div class="row">
             <div class="col-sm-12"><h5><strong>貴社名</strong></h5>
-              <input type="text">
+              <input type="text" name="companyName">
               
               </div>
           </div>
           <div class="row">
             <div class="col-sm-12"><h5><strong>お名前</strong></h5>
-              <input type="text">
+              <input type="text" name="yourName">
               
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-12"><h5><strong>メールアドレス</strong></h5>
-              <input type="text">
+            <div class="col-sm-12"><h5><strong>メールアドレス</strong>  <div style="color: red; display: inline-block; _display: inline;">必須</h5>
+              <input type="text" name="from">
               
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-12"><h5><strong>電話番号</strong></h5>
-              <input type="text">
+            <div class="col-sm-12"><h5><strong>タイトル</strong></h5>
+              <input type="text" name="title">
               
             </div>
           </div>
           <div class="row form-content">
             <div class="col-sm-12"><h5><strong>お問い合わせ内容</strong></h5>
-              <input type="text" height>
+              <textarea name="content" id="" cols="30" rows="10"></textarea>
               
             </div>
           </div>
-          <input type="submit"></form>
+        <input type="submit" name="send" value="送信">
+		  </form>
 		  </div>
 		</div>
         
+
+        
+      </div>
         <div class="footer-info">
           <div class="container-fluid">
             <div class="row">
@@ -108,18 +115,14 @@
             </div>
           </div>
   </div>
-        
-      </div>
-    </div>
-  </div>
-	  
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-1.12.4.min.js"></script>
 
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	 
 	<script src="js/bootstrap-3.4.1.js"></script>
-	  <script src="common.js"</script>
+	  <script src="common.js"></script>
+	  
   </body>
 </html>
   
