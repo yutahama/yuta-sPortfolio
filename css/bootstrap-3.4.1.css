@@ -27,6 +27,10 @@ section,
 summary {
   display: block;
 }
+.navbar.navbar-default.navbar-static-top {
+    background-color: #29434E;
+}
+
 audio,
 canvas,
 progress,
@@ -178,7 +182,8 @@ legend {
   padding: 0;
 }
 textarea {
-  overflow: auto;
+    overflow: auto;
+    width: 423px;
 }
 optgroup {
   font-weight: bold;
@@ -191,6 +196,7 @@ td,
 th {
   padding: 0;
 }
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -1100,6 +1106,7 @@ textarea {
 }
 .row.form-content .col-sm-12 input {
     height: 200px;
+    text-align: left;
 }
 
 a {
@@ -1115,6 +1122,7 @@ a:focus {
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
     height: auto;
+    padding-top: 0px;
 }
 figure {
   margin: 0;
@@ -1454,9 +1462,14 @@ dd {
 dt {
   font-weight: 700;
 }
+
 dd {
   margin-left: 0;
 }
+.gakutika-content {
+    clear: left;
+}
+
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
@@ -1617,6 +1630,11 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
+.form-content input {
+    width: 300px;
+    text-align: right;
+}
+
 .row-no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -4059,8 +4077,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   list-style: none;
 }
 .nav > li {
-  position: relative;
-  display: block;
+    position: relative;
+    display: block;
+    text-align: center;
 }
 .nav > li > a {
   position: relative;
@@ -4583,14 +4602,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
-  background-color: transparent;
+    background-color: transparent;
 }
+
 .navbar-default .navbar-text {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+    color: #FFFFFF;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
