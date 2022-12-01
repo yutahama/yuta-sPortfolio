@@ -76,6 +76,17 @@ body {
 .myhist-contents h2 {
     text-align: center;
 }
+.contact-top-padding {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.progress-content a {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+
+
 
 
 
@@ -184,6 +195,11 @@ body {
 }
 .gakutika-contents  .col-sm-6 {
 }
+.contact-top-padding {
+
+
+}
+
 
 
 
@@ -431,15 +447,14 @@ section:nth-child(2n){
 
 
 .sub-navbar ul li {
-  position: relative;
-  list-style-type: none!important;/*ポチ消す*/
-  padding: 0.5em 0.5em 0.5em 0.5em;
-  margin-bottom: 5px;
-  line-height: 1.5;
-  background: #dbebf8;
-  vertical-align: middle;
-  color: #505050;
-  border-radius: 15px 0px 0px 15px;/*左側の角丸く*/
+    list-style-type: none!important;/*ポチ消す*/
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    background: #dbebf8;
+    vertical-align: middle;
+    color: #505050;
+    border-radius: 15px 0px 0px 15px;
 }
 
 .sub-navbar ul li:before{ 
@@ -456,5 +471,12 @@ section:nth-child(2n){
 
 @media (max-width: 991px){
 
+
+}
+
+@media (max-width: 1199px){
+.contact-top-padding {
+
+}
 
 }
