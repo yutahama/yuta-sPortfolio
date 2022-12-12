@@ -9,8 +9,7 @@
       mb_internal_encoding("UTF-8");
 	  $companyName = $_POST['companyName'];
 	  $yourName = $_POST['yourName'];
-	  
-      $to = "bs120029@sun.ac.jp";
+	   $to = "bs120029@sun.ac.jp";
       $title = $_POST['title'];
       $content = $_POST['content'];
 	  $contents=$companyName."の".$yourName."さんから".$content;
