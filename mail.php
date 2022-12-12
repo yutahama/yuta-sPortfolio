@@ -13,7 +13,7 @@
       $to = "bs120029@sun.ac.jp";
       $title = $_POST['title'];
       $content = $_POST['content'];
-	  $contents=$companyName."の".$yourName."さんから<br>".$content
+	  $contents=$companyName."の".$yourName."さんから".$content;
       $header = $_POST['from'];
 	  //送信先のメールアドレス,メールのタイトル,メールの本文,メールの送り元
       if(mb_send_mail($to, $title,$contents,$header)){
